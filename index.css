@@ -1,0 +1,146 @@
+@media screen and (max-width: 600px) {
+	.imag {
+		width: 100% !important;
+	}
+
+	h2{
+		font-size: 40px !important;
+	}
+
+	.one{
+		display: block !important;
+		background-image: url(imageforless.jpg) !important;
+		height: 1050px !important;
+
+	}
+
+	.two{width: 100vw !important; margin-left: -8px !important;}
+
+	.a{font-size: 80px !important; padding-bottom: 10px;}
+
+	.projects{display: block!important;}
+
+	.projects p{
+		font-size: 20px !important;
+	}
+
+	.paragraph{ width: 100vw !important; }
+
+	.images{ 
+		display: block !important;
+	}
+
+	.images img{
+		width: 100vw !important;
+		margin-left: -4vw !important;
+	}
+	
+}
+
+
+body{
+	background-color: #28393C;
+	background-size: cover;
+	background-position: right;
+	color: white;
+	overflow-x: hidden;
+}
+
+ .a{  margin-top: 30px;
+	  height: 1vh;
+	  text-align: center;
+	  font-size: 200px;
+	  font-family: "Bodoni Moda", serif;
+	  font-optical-sizing: auto;
+	  font-weight: <weight>;
+	  font-style: normal;
+	  color: #E66600;
+}
+
+
+.one{
+	background-image: url(IMG_20240308_061944_69.jpg);
+	background-size: cover;
+	width: 100vw;
+	margin-left: -9px;
+	display: flex;
+	height: auto;
+}
+
+
+
+ h2,p{
+	
+	padding-right: 3vw;
+	color: #A66129;
+}
+
+
+p{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 20px;
+}
+
+hr{
+	border-color: #E66600;
+}
+
+.imune{
+	text-align: left;
+	padding-left: 2vw;
+	color: white;
+
+}
+
+.right{
+	text-align: right;
+	font-size: 2vw;
+	width: 100%;
+}
+
+strong{
+	font-size: 4vh;
+}
+
+.two{
+	margin-top: 7vh;
+	background:linear-gradient(to right, #7AE4FA, rgba(122, 228, 250, 0.2));
+	border-radius: 2px;
+
+}
+
+h2{
+	font-size: 2vw;
+	padding: 1vw;
+}
+
+.projects{
+	display: flex;
+	justify-content: center;
+	padding: 3vw;
+}
+
+.paragraph{
+	width: 45vw;
+}
+
+.info{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.images{
+	display: flex;
+	padding-top: 2vh;
+	justify-content: space-between;
+}
+
+.images img{
+	padding-left: 1vw;
+}
