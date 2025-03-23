@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apology Page</title>
+    <link rel="icon" type="image/jpg" href="Untitled.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color:#6D9886;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            padding: 20px;
+            display: flex;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            background-color: lightgray;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 20px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        h1{
+            font-family: "Monoton", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+        }
+
+        h2{
+            margin-top: -30px;
+            font-size: 20px;
+            text-align: right;
+             font-family: "Zen Loop", cursive;
+  font-weight: 400;
+  font-style: normal;
+        }
+
+        span{
+            font-size: 15px;
+            text-align: right;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 3vw;
+
+        }
+        .gallery div {
+            display: flex;
+            flex-direction: column;
+            gap: 1vh;
+            width: 45vw;
+            }
+        .music-controls {
+            margin-top: 20px;
+        }
+        .lyrics {
+              font-family: "Zen Loop", cursive;
+  font-weight: 400;
+  font-style: normal;
+            font-size: 1.5em;
+            margin-top: 20px;
+            min-height: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div><h1>Aluwa</h1>
+        <h2>- wayuwa Njuma<br> <span>mamaa</span></h2></div>
+        
+        <div class="profile-img"><img src="IMG_20241107_171207_410.jpg" style="width:170px; position:absolute; top:-40px; left: -30px;"></div>
+    </div>
+    <div class="gallery">
+        <div>
+            <img src="IMG-20240414-WA0011.jpg" style="width:100%; border-radius: 8px;" target="">
+             <img src="WhatsApp Image 2025-01-07 at 00.03.51_ce7f91b8.jpg" style="width:100%; border-radius: 8px;">
+             <img src="IMG-20240414-WA0015.jpg" style="width:100%; border-radius: 8px;">
+            <div style="background-image: url(IMG_20240605_095125_868~2_1.jpg); background-size: cover; height: 500px; border-radius: 8px;">
+
+                <section style="   background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px); height: 100%; border-radius: 8px;">
+                     
+              <div class="music-controls" style="width:100%">
+                    <audio id="bg-music" loop autoplay>
+                        <source src="WhatsApp Audio 2025-03-23 at 3.04.18 AM.mpeg" type="audio/mp3">
+                    </audio>
+                    <img src="music_note_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" style="width:100px"  onclick="toggleMusic()" >
+                </div>
+                </section>
+               
+            </div>
+  
+        </div>
+        <div>
+            <img src="IMG_20241107_171207_410.jpg" style="width:100%; border-radius: 8px;">
+            <img src="IMG-20240414-WA0010.jpg" style="width:100%; border-radius: 8px;">
+            <img src="IMG-20240414-WA0012_1~3.jpg" style="width:100%; border-radius: 8px;">
+            <video style="width: 100%; border-radius: 12px;" controls>
+                <source src="WhatsApp Video 2025-01-08 at 09.44.23_24d885a0.mp4" type="video/mp4">
+            </video> 
+            <div class="lyrics" id="lyrics"></div>
+             
+  
+        </div>
+       
+    </div>
+   
+  
+    <script>
+        function toggleMusic() {
+            var audio = document.getElementById("bg-music");
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+
+        const lyricsArray = [
+            "aki pole", 
+            "please usijam", 
+            "nilikuanga busy", 
+            "bass ntakubuia chipo", 
+            "lakini kaa hunidai nitarudi soko 😂😂😂"
+        ];
+        const songDuration = 45; // in seconds
+        const intervalTime = songDuration / lyricsArray.length * 1000;
+        let index = 0;
+
+        function updateLyrics() {
+            document.getElementById("lyrics").textContent = lyricsArray[index];
+            index = (index + 1) % lyricsArray.length;
+        }
+        setInterval(updateLyrics, intervalTime);
+    </script>
+</body>
+</html>

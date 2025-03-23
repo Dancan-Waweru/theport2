@@ -1,0 +1,17 @@
+body{
+	background: linear-gradient(45deg,  #015958, #023535);
+	display: flex;
+	gap: 1vw;
+	margin-left: 17px;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	gap: 1vh;
+}
+
+p{
+	font-size: 30px;
+	color:   rgb(0, 0, 0), rgb(254, 254, 254);
+}
