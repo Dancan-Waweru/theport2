@@ -80,6 +80,14 @@
             min-height: 50px;
         }
 
+          #countdown {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        #page-content {
+            transition: opacity 1s;
+        }
+
     </style>
 </head>
 <body>
@@ -118,6 +126,11 @@
                 <source src="WhatsApp Video 2025-01-08 at 09.44.23_24d885a0.mp4" type="video/mp4">
             </video> 
             <div class="lyrics" id="lyrics"></div>
+             <h3>Page will collapse in:</h3>
+    <div id="countdown"></div>
+    <div id="page-content">
+        <p>This page will disappear after 12 hours.</p>
+    </div>
              
   
         </div>
@@ -151,6 +164,35 @@
             index = (index + 1) % lyricsArray.length;
         }
         setInterval(updateLyrics, intervalTime);
+
+        let timeLeft = 12 * 60 * 60; // 12 hours in seconds
+
+        function updateCountdown() {
+            let hours = Math.floor(timeLeft / 3600);
+            let minutes = Math.floor((timeLeft % 3600) / 60);
+            let seconds = timeLeft % 60;
+
+            // Format the time
+            let display = `${hours}h ${minutes}m ${seconds}s`;
+            document.getElementById("countdown").innerText = display;
+
+            if (timeLeft > 0) {
+                timeLeft--;
+                setTimeout(updateCountdown, 1000); // Update every second
+            } else {
+                collapsePage();
+            }
+        }
+
+        function collapsePage() {
+            document.getElementById("page-content").style.opacity = "0";
+            setTimeout(() => {
+                document.body.innerHTML = "<h1>Page Collapsed</h1>";
+            }, 1000); // Wait for fade-out effect
+        }
+
+        // Start the countdown
+        updateCountdown();
     </script>
 </body>
 </html>
