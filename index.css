@@ -41,8 +41,11 @@ h3{
 }
 
 .mySkills{
-	height: 88vw;
-	width: 40vw;
+	height: 88vw !important;
+	width: 40vw !important;
+	background-size: 100vw !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
 
 }
 
