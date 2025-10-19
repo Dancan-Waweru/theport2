@@ -15,6 +15,7 @@ width: 100vw !important;
 	background-size: 500vw !important;
 	background-repeat: no-repeat;
 	height: 120vw !important;
+	width: 100vw !important;
 }
 
 .hero-content{
@@ -66,12 +67,12 @@ h3{
 }
 
 #projects{
-	width: 120vw !important;
+	width: 100vw !important;
 	margin-left: 0 !important;
 }
 
 #skills{
-		width: 120vw !important;
+		width: 100vw !important;
 		height: 792px !important;
 	margin-left: 0 !important;
 }
