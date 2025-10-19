@@ -1,3 +1,47 @@
+@media screen and (max-width: 600px) {
+.site-header{
+	display: block !important;
+	 box-shadow: 0 24px 8px rgba(0,0,0,0.4) !important;
+	 margin-top: 4h !important;
+}
+
+.navbar ul{
+padding: 0 !important;
+gap: 0.5rem !important;
+width: 100vw !important;
+}
+
+.hero{
+	background-size: 500vw !important;
+	background-repeat: no-repeat;
+	height: 150vw !important;
+}
+
+.hero-content{
+	left: 24% !important;
+	top: 68% !important;
+	color: black;
+}
+
+.hero-content p{
+		color: grey !important;
+}
+
+.navbar	a{
+	color: white !important;
+}
+
+.subheading{
+	font-size: 6rem !important;
+	top: 30% !important;
+}
+
+h3{
+	font-size: 1.5rem !important;
+}
+
+}
+
 body{
 	background-color:#373431;
   font-family: 'Poppins', sans-serif;
