@@ -1,0 +1,264 @@
+body{
+	background-color:#373431;
+  font-family: 'Poppins', sans-serif;
+  color: #f5f5f5;
+  overflow-x: hidden;
+}
+
+/* Header */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98vw;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  z-index: 1000;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.4);
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #f2f2f2;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ccc;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
+
+.cta {
+  background-color: #ffbb33;
+  color: black;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cta:hover {
+  background-color: #ffaa00;
+}
+
+/* Hero Section */
+.hero {
+  padding: 9rem 2rem 5rem;
+  height: 36vw;
+  margin: auto;
+  background-image: url('profile.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  margin-left: -2vw;
+  margin-top: -2vh;
+}
+
+.subheading{
+	font-size: 8rem;
+	font-family: 'time new roman';
+	position: absolute;
+	top: 1.5rem;
+	left: 8%;
+}
+
+ h3 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+ p {
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.hero-btn {
+  background-color: #ffbb33;
+  color: #111;
+  padding: 0.8rem 1.6rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.hero-btn:hover {
+  background-color: #ffaa00;
+}
+
+.hero-content{
+	position: absolute;
+	top: 60%;
+	left: 60%;
+}
+
+#skills{
+	height: 780px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.mySkills{
+	width: 88vw;
+	height: 40vw;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+					 url('profile.jpg');
+	background-position: right;
+	background-size: 114vw ;
+	margin-top: 8vh;
+	border-radius: 6px;
+	 box-shadow: 
+    24px 24px 12px rgba(0, 0, 0, 0.6),  
+    24px 24px 12px rgba(255, 255, 255, 0.1); 
+    overflow: hidden;
+    display: flex;
+    gap:16vw;
+}
+
+.mySkills h3{
+	padding: 40px;
+	font-size: 4rem;
+	font-family: 'times new roman';
+}
+
+.mySkills p{
+	font-size: 1.2rem;
+	margin-top: -4vh;
+}
+
+#projects{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+					 url('profile.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 780px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 102vw;
+	margin-left: -2vw;
+	margin-top: 4vh;
+}
+
+.content{
+	width: 84vw;
+	height: 40vw;
+	background-color: rgba(255, 255, 255, 0.3);
+	margin-top: 8vh;
+	border-radius: 6px;
+	display: flex;
+	overflow: hidden;
+}
+
+.title{
+	background-color: #151414;
+	color: white;
+	font-family: 'times new roman';
+	width: 26vw;
+	display: flex;
+}
+
+h4{
+	font-size: 4rem;
+	padding: 48px;
+}
+
+.infor{
+	width: 60%;
+	padding: 40px;
+	color: #151414;
+	font-size: 1.6rem;
+}
+
+#contact{
+	height: 680px;
+	display: flex;
+	align-items: center;
+	padding-left: 8vw;
+	padding-top: 12vh;
+	padding-bottom: 0;
+	width: 102vw;
+	margin-left: -2vw;
+
+}
+
+fieldset{
+	border-radius: 12px;
+	padding: 32px;
+	padding-left: 78px;
+	padding-right: 78px;
+
+}
+
+#contact h2{
+	font-size: 4rem;
+}
+
+
+.form{
+	width: 60%;
+}
+
+input{
+	outline: none;
+	border: none;
+	border-radius: 8px;
+	height: 1.5rem;
+	width: 12rem;
+}
+
+textarea{
+	background-color: rgba(0, 0, 0, );
+	outline: none;
+	border: none;
+	border: 1px solid white;
+	border-radius: 8px;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	font-size: 1.4rem;
+	color: #D9AC84;
+	gap: 2vw;
+}
+
+a {
+  text-decoration: none;
+  color: #D9AC84;
+  font-weight: 500;
+  transition: color 0.3s;
+
+}
