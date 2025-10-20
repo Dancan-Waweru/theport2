@@ -28,12 +28,16 @@
 <main>
 
 <section class="hero" id="about">
-	<h2 class="subheading"> Portfolio</h2>
-  <div class="hero-content">
+	<div class="lcontainers"><h2 class="subheading"> Portfolio</h2></div>
+
+<div class="tcontainers">
+	<div class="hero-content">
     <h3>Designing functional, creative, and fast websites.</h3>
     <p>Hi, I'm Dancan — a web developer passionate about building modern digital experiences that feel as good as they look.</p>
     <a href="#projects" class="hero-btn">View My Work</a>
   </div>
+</div>
+ 
 </section>
 
 <section id="skills">
@@ -102,6 +106,15 @@ How vexingly quick daft zebras jump! <p> </div>
 github
 </a>
 </footer>
+
+<script>
+  const subheading = document.querySelector('.subheading');
+  const container = document.querySelector('.lcontainers');
+
+  subheading.addEventListener('animationend', () => {
+    container.style.borderLeft = 'none';
+  });
+</script>
 
 </body>
 </html>

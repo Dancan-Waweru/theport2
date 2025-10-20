@@ -255,9 +255,10 @@ body{
 .subheading{
 	font-size: 8rem;
 	font-family: 'time new roman';
-	position: absolute;
+	position: relative;
 	top: 1.5rem;
 	left: 8%;
+	animation: slidein 1.5s ease-in-out forwards;
 }
 
  h3 {
@@ -291,6 +292,7 @@ body{
 	position: absolute;
 	top: 60%;
 	left: 60%;
+	animation: fallin 2s ease-in-out forwards;
 }
 
 #skills{
@@ -456,4 +458,39 @@ a {
 	 height: 2rem;
 	 color: black;
 	 border: none;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(-12vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.lcontainers{
+	overflow-x: hidden;
+	width: fit-content;
+	padding-right: 12vw;
+	height: fit-content;
+}
+
+@keyframes fallin {
+  from {
+    transform: translatey(-6vw);
+    opacity: 0.0;
+  }
+  to {
+    transform: translatey(0);
+    opacity: 1;
+  }
+}
+
+.tcontainers{
+	border-top: 2px solid white;
+	overflow-y: hidden;
+	overflow: hidden;
+	padding-right: 12vw;
+	height: fit-content;
 }
