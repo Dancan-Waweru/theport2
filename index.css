@@ -40,7 +40,7 @@ width: 100vw !important;
 .subheading{
 	font-size: 5rem !important;
 	top: 8% !important;
-	font-family: 'serif' !important;
+	font-family: 'times new roman' !important;
 }
 
 h3{
@@ -84,7 +84,7 @@ h3{
 }
 
 .paragraph p{
- 	margin-top: -4vh !important;
+ 	margin-top: 2vh !important;
 }
 
 .paragraph h3{
