@@ -138,7 +138,7 @@ p{
 	background-size: 140vw;
 	background-position: -2vw 2vh;
 	background-repeat: no-repeat;
-	height: 748px !important;
+	height: 756px !important;
 	width: 100% !important;
 	margin-left: 0 !important;
 }
@@ -189,6 +189,7 @@ body{
   padding: 1rem 3rem;
   z-index: 1000;
   box-shadow: 0 1px 8px rgba(0,0,0,0.4);
+  backdrop-filter: blur(4px);
 }
 
 .logo h1 {
@@ -329,7 +330,7 @@ body{
 }
 
 #projects{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
 					 url('profile.jpg');
 	background-position: center;
 	background-size: cover;
@@ -341,16 +342,18 @@ body{
 	width: 102vw;
 	margin-left: -2vw;
 	margin-top: 4vh;
+	backdrop-filter: blur(12px);
 }
 
 .content{
 	width: 84vw;
 	height: 40vw;
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(128, 128, 128, 0.2);
 	margin-top: 8vh;
 	border-radius: 6px;
 	display: flex;
 	overflow: hidden;
+	backdrop-filter: blur(12px);
 }
 
 .title{
@@ -371,6 +374,10 @@ h4{
 	padding: 40px;
 	color: #151414;
 	font-size: 1.6rem;
+}
+
+.infor p{
+		color:#f1f0f2 ;
 }
 
 #contact{
