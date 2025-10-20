@@ -18,13 +18,13 @@ body{
 padding: 0 !important;
 gap: 0.5rem !important;
 width: 100vw !important;
-margin-left: -8vw !important;
+margin-left: -10vw !important;
 }
 
 .hero{
 	background-size: 500vw !important;
 	background-repeat: no-repeat;
-	height: 128vw !important;
+	height: 132vw !important;
 	width: 90% !important;
 }
 
