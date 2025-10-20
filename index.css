@@ -4,6 +4,8 @@ body{
 	overflow-x: hidden !important ;
 }
 
+
+
 .site-header{
 	display: block !important;
 	 box-shadow: 0 24px 8px rgba(0,0,0,0.4) !important;
@@ -13,7 +15,7 @@ body{
 .navbar ul{
 padding: 0 !important;
 gap: 0.5rem !important;
-width: 100vw !important;
+width: 90% !important;
 }
 
 .hero{
