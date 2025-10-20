@@ -167,6 +167,25 @@ textarea{
 .contactMe img{
 	display: none !important;
 }
+
+@keyframes slidein {
+  from {
+    transform: translateX(-12vw);
+  }
+  to {
+    transform: translateX(-4vw);
+  }
+}
+@keyframes fallin {
+  from {
+    transform: translatey(-8vw);
+    opacity: 0.0;
+  }
+  to {
+    transform: translatey(0);
+    opacity: 1;
+  }
+}
 }
 
 body{
