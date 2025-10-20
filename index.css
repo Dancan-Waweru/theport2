@@ -1,4 +1,9 @@
 @media screen and (max-width: 600px) {
+body{
+	max-width: 100vw;
+	overflow-x: ;
+}
+
 .site-header{
 	display: block !important;
 	 box-shadow: 0 24px 8px rgba(0,0,0,0.4) !important;
@@ -15,7 +20,7 @@ width: 100vw !important;
 	background-size: 500vw !important;
 	background-repeat: no-repeat;
 	height: 120vw !important;
-	width: 100vw !important;
+	width: 100% !important;
 }
 
 .hero-content{
@@ -42,7 +47,7 @@ h3{
 }
 
 #skills{
-	height: 110vh !important;
+	height: 100% !important;
 }
 
 .mySkills{
@@ -67,12 +72,12 @@ h3{
 }
 
 #projects{
-	width: 100vw !important;
+	width: 110vw !important;
 	margin-left: 0 !important;
 }
 
 #skills{
-		width: 100vw !important;
+		width: 110vw !important;	
 		height: 792px !important;
 	margin-left: 0 !important;
 }
@@ -126,6 +131,8 @@ p{
 	background-position: -2vw 2vh;
 	background-repeat: no-repeat;
 	height: 740px !important;
+	width: 100% !important;
+	margin-left: 0 !important;
 }
 
 .form{
