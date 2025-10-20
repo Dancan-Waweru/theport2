@@ -24,7 +24,7 @@ margin-left: -8vw !important;
 .hero{
 	background-size: 500vw !important;
 	background-repeat: no-repeat;
-	height: 126vw !important;
+	height: 128vw !important;
 	width: 90% !important;
 }
 
@@ -102,8 +102,8 @@ p{
 }
 
 .skillImage{
-	width: 60% !important;
-	margin-top: -6vh;
+	width: 64% !important;
+	margin-top: -4vh;
 	padding: 0 !important;
 	padding-left: 36vw !important;
 
