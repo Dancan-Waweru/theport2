@@ -24,7 +24,7 @@ margin-left: -8vw !important;
 .hero{
 	background-size: 500vw !important;
 	background-repeat: no-repeat;
-	height: 122vw !important;
+	height: 126vw !important;
 	width: 90% !important;
 }
 
@@ -80,6 +80,7 @@ h3{
 #projects{
 	width: 100vw !important;
 	margin-left: -1vh !important;
+	margin-top: 4vh !important;
 }
 
 #skills{
@@ -101,7 +102,7 @@ p{
 }
 
 .skillImage{
-	width: 56% !important;
+	width: 60% !important;
 	margin-top: -6vh;
 	padding: 0 !important;
 	padding-left: 36vw !important;
@@ -136,7 +137,7 @@ p{
 	background-size: 140vw;
 	background-position: -2vw 2vh;
 	background-repeat: no-repeat;
-	height: 740px !important;
+	height: 748px !important;
 	width: 100% !important;
 	margin-left: 0 !important;
 }
