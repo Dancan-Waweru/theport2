@@ -4,7 +4,9 @@ body{
 	overflow-x: hidden !important ;
 }
 
-
+.logo{
+	margin-left: -4vw !important;
+}
 
 .site-header{
 	display: block !important;
@@ -15,7 +17,7 @@ body{
 .navbar ul{
 padding: 0 !important;
 gap: 0.5rem !important;
-width: 90% !important;
+width: 96% !important;
 }
 
 .hero{
@@ -76,13 +78,13 @@ h3{
 
 #projects{
 	width: 100vw !important;
-	margin-left: 0 !important;
+	margin-left: -1vh !important;
 }
 
 #skills{
 		width: 100vw !important;	
 		height: 792px !important;
-	margin-left: 0 !important;
+	margin-left: -1vh !important;
 }
 
 .paragraph p{
