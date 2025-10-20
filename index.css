@@ -102,8 +102,9 @@ p{
 }
 
 .skillImage{
-	width: 68% !important;
-	margin-top: -2vh;
+	width: 66% !important;
+	margin-top: -4vh;
+	padding-left: 12px !important;
 	padding: 0 !important;
 	padding-left: 36vw !important;
 
