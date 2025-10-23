@@ -335,7 +335,6 @@ body{
     24px 24px 12px rgba(0, 0, 0, 0.6),  
     24px 24px 12px rgba(255, 255, 255, 0.1); 
     overflow: hidden;
-    display: flex;
     gap:16vw;
 }
 
@@ -463,12 +462,23 @@ a {
 }
 
 .paragraph{
-	width: 30vw;
 	padding: 20px;
+	width: 40%;
+}
+
+.paragraph p{
+	font-size: 1.2rem;
 }
 
 .skillImage{
-	padding: 40px;
+	width: 60%;
+	display: flex;
+	margin-top: -16vh;
+	overflow-x: hidden;
+}
+
+.skillImage figure{
+	width: 400px;
 }
 
 .submit{
@@ -513,3 +523,23 @@ a {
 	padding-right: 12vw;
 	height: fit-content;
 }
+
+.crazy{
+	display: flex;
+}
+
+
+		.slide{
+			display: flex;
+			animation: scrollLeft 20s linear infinite alternate; 
+		}
+
+
+		@keyframes scrollLeft {
+			from {
+				transform: translateX(20%);
+			}
+			to {
+				transform: translateX(-100%); /* how far it scrolls */
+			}
+		}s
