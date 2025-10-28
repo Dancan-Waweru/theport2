@@ -76,11 +76,16 @@ h3{
 
 }
 
+.mySkills h3{
+	font-size: 3rem !important;
+	margin-top: -4vh !important;
+}
+
 .paragraph{
 	width: 96% !important;
-	height: 60% !important;
+	height: 68% !important;
 	padding: 10px !important;
-	font-size: 0.2rem !important;
+	font-size: 0.4rem !important;
 		margin-top: -10vh !important;
 }
 
@@ -208,7 +213,7 @@ textarea{
 }
 
 .skillImage figure{
-	padding-top: 5vh !important;
+	padding-top: 8vh !important;
 	width: 150px !important;
 }
 }
