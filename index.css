@@ -284,8 +284,8 @@ body{
 	font-size: 8rem;
 	font-family: 'time new roman';
 	position: relative;
-	top: 1.5rem;
-	left: 8%;
+	top: 1.2rem;
+	left: 6%;
 	animation: slidein 1.5s ease-in-out forwards;
 }
 
