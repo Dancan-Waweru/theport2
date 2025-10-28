@@ -42,9 +42,14 @@ margin-left: -10vw !important;
 	color: white !important;
 }
 
+.lcontainers{
+	padding-right: -20vw !important;
+}
+
 .subheading{
 	font-size: 4.6rem !important;
 	top: 16% !important;
+	left: 1% !important;
 	font-family: 'times new roman' !important;
 }
 
@@ -72,9 +77,14 @@ h3{
 
 .paragraph{
 	width: 96% !important;
+	height: 60% !important;
 	padding: 10px !important;
 	font-size: 0.2rem !important;
 		margin-top: -10vh !important;
+}
+
+.crazy{
+	width: 100% !important;
 }
 
 #projects{
@@ -194,6 +204,10 @@ textarea{
     transform: translatey(0);
     opacity: 1;
   }
+}
+
+.skillImage figure{
+	width: 200px !important;
 }
 }
 
@@ -551,4 +565,4 @@ a {
 			to {
 				transform: translateX(-100%); /* how far it scrolls */
 			}
-		}s
+		}
