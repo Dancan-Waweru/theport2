@@ -417,12 +417,24 @@ h4{
 	padding: 48px;
 }
 
-.infor{
+.infor {
 	width: 60%;
 	padding: 40px;
 	color: #151414;
-	font-size: 1.6rem;
+	font-size: 2rem;
+
+	/* make it scrollable */
+	overflow-y: auto;
+	max-height: 80vh; /* adjust height to your layout */
+
+	/* hide the scrollbars (works across browsers) */
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE & Edge */
 }
+.infor::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, Opera */
+}
+
 
 .infor p{
 		color:#f1f0f2 ;
